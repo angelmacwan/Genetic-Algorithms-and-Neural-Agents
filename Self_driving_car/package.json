@@ -1,0 +1,24 @@
+{
+    "name": "selfdrivingcar",
+    "version": "1.0.0",
+    "description": "Self Driving car project for final SEM (AMITY UNIVERSITY)",
+    "main": "drive.js",
+    "scripts": {
+        "drive": "node drive.js",
+        "train": "node train.js"
+    },
+    "keywords": [
+        "self driving car"
+    ],
+    "author": "Angel Macwan",
+    "license": "MIT",
+    "dependencies": {
+        "@tensorflow/tfjs-node": "^3.14.0",
+        "csv-parser": "2.3.3",
+        "file-lines-count": "1.0.1",
+        "socket.io": "2.3.0"
+    },
+    "engines": {
+        "node": ">= 12.0.0"
+    }
+}
